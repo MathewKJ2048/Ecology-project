@@ -1,0 +1,6 @@
+It is a basic version of 2048 game.
+It doesn't have the winning and losing feature yet. We need to add a restart button there too.
+There can be different levels with different difficulties based on idea team's ideas.
+This code is only until 32. More powers can be added easily.
+I will do the necessary changes and reupload the file.
+Meanwhile you all can have a look.
