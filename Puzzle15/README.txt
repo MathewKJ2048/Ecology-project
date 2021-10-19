@@ -1,0 +1,1 @@
+Create a new flutter project and copy lib and fonts folders into it and start build process
