@@ -10,7 +10,7 @@ class TitleText extends StatelessWidget{
     return Row(
         children:[
         Text('$title', style: 
-          TextStyle(
+          const TextStyle(
             fontFamily: 'Raleway',
             fontSize: 24,
             color: Colors.white,

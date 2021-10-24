@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:puzzle15/Piece.dart';
+import 'Piece.dart';
 
 class PuzzleBoard extends StatelessWidget {
   var board = [];
@@ -9,16 +9,15 @@ class PuzzleBoard extends StatelessWidget {
   
   @override
   Widget build(BuildContext context) {
-    print('Board = $board');
     return Container(
-      margin: EdgeInsets.only(top: 32),
+      margin: const EdgeInsets.only(top: 32),
       height: MediaQuery.of(context).size.height*.7,
       child: 
         GridView(
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 4,
-            crossAxisSpacing: 4,
-            mainAxisSpacing: 4
+            crossAxisSpacing: 2,
+            mainAxisSpacing: 2
           ),
           children: [
             Piece(board[0], clicked),
