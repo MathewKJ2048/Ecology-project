@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'Piece.dart';
+import 'package:puzzle15/Piece.dart';
 
 class PuzzleBoard extends StatelessWidget {
   var board = [];

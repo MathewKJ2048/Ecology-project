@@ -1,9 +1,9 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:puzzle15/puzzle_board.dart';
 import 'package:flutter/services.dart';
 
-import 'puzzle_board.dart';
 import 'score_card.dart';
 import 'step_card.dart';
 import 'title.dart';
