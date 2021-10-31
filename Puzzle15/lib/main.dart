@@ -464,7 +464,7 @@ class _Puzzle15State extends State<Puzzle15> {
         grid[swap] = p;
         grid[pos] = 16;
 
-        if (listEquals(grid, gridIS)) {
+        if (isSolved(grid)) {
           Navigator.push(
             context,
             MaterialPageRoute(builder: (context) => animal(name, Des)),
@@ -479,4 +479,11 @@ class _Puzzle15State extends State<Puzzle15> {
       }
     });
   }
+}
+
+bool isSolved(List l) {
+  for (int i = 0; i < l.length; i++) {
+    if (l[i] != i + 1) return false;
+  }
+  return true;
 }
