@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:puzzle15/Piece.dart';
+import 'Piece.dart';
 
 class PuzzleBoard extends StatelessWidget {
   var board = [];
   Function clicked;
+  var Name;
 
-  PuzzleBoard(this.board, this.clicked);
+  PuzzleBoard(this.board, this.clicked, this.Name);
   
   @override
   Widget build(BuildContext context) {
@@ -20,22 +21,22 @@ class PuzzleBoard extends StatelessWidget {
             mainAxisSpacing: 2
           ),
           children: [
-            Piece(board[0], clicked),
-            Piece(board[1], clicked),
-            Piece(board[2], clicked),
-            Piece(board[3], clicked),
-            Piece(board[4], clicked),
-            Piece(board[5], clicked),
-            Piece(board[6], clicked),
-            Piece(board[7], clicked),
-            Piece(board[8], clicked),
-            Piece(board[9], clicked),
-            Piece(board[10], clicked),
-            Piece(board[11], clicked),
-            Piece(board[12], clicked),
-            Piece(board[13], clicked),
-            Piece(board[14], clicked),
-            Piece(board[15], clicked),
+            Piece(board[0], clicked, Name),
+            Piece(board[1], clicked, Name),
+            Piece(board[2], clicked, Name),
+            Piece(board[3], clicked, Name),
+            Piece(board[4], clicked, Name),
+            Piece(board[5], clicked, Name),
+            Piece(board[6], clicked, Name),
+            Piece(board[7], clicked, Name),
+            Piece(board[8], clicked, Name),
+            Piece(board[9], clicked, Name),
+            Piece(board[10], clicked, Name),
+            Piece(board[11], clicked,Name),
+            Piece(board[12], clicked, Name),
+            Piece(board[13], clicked, Name),
+            Piece(board[14], clicked, Name),
+            Piece(board[15], clicked, Name),
           ],
         )
     );

@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
+import 'main.dart';
 
 class Piece extends StatelessWidget {
   Function clicked;
   int val;
+  String Name;
 
-  Piece(this.val, this.clicked);
+  Piece(this.val, this.clicked, this.Name);
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +18,7 @@ class Piece extends StatelessWidget {
           decoration: BoxDecoration(
             image: DecorationImage(
                 image: (val != 16)
-                    ? AssetImage('images/tiger ($val).jpg')
+                    ? AssetImage('assets/$Name$val.jpg')
                     : const AssetImage('images/white.jpg'),
                 fit: BoxFit.cover),
           ),

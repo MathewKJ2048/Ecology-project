@@ -13,6 +13,7 @@ class TitleText extends StatelessWidget{
           const TextStyle(
             fontFamily: 'Raleway',
             fontSize: 24,
+            fontWeight: FontWeight.bold,
             color: Colors.white,
           ),
         ),

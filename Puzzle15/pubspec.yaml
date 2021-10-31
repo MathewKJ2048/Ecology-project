@@ -1,4 +1,4 @@
-name: puzzle15
+name: puzzle
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -18,7 +18,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.15.0-116.0.dev <3.0.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -33,7 +33,9 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
+  # cupertino_icons: ^1.0.2
+  # fdottedline: ^1.0.1
+  # confetti: ^0.6.0
 
 dev_dependencies:
   flutter_test:
@@ -59,25 +61,10 @@ flutter:
     - family: Raleway
       fonts:
         - asset: fonts/Raleway-Regular.ttf
-  uses-material-design: true
+  # uses-material-design: true
   assets:
-    - images/white.jpg
-    - images/tiger (1).jpg
-    - images/tiger (2).jpg
-    - images/tiger (3).jpg
-    - images/tiger (4).jpg
-    - images/tiger (5).jpg
-    - images/tiger (6).jpg
-    - images/tiger (7).jpg
-    - images/tiger (8).jpg
-    - images/tiger (9).jpg
-    - images/tiger (10).jpg
-    - images/tiger (11).jpg
-    - images/tiger (12).jpg
-    - images/tiger (13).jpg
-    - images/tiger (14).jpg
-    - images/tiger (15).jpg
-    - images/tiger (16).jpg
+    - images/
+    - assets/
 
   # To add assets to your application, add an assets section, like this:
   # assets:

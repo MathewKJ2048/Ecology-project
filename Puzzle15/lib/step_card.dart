@@ -8,7 +8,7 @@ class StepCard extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return Text('STEPS: $i', style: const TextStyle(
-      fontSize: 24,
+      fontSize: 20,
       fontWeight: FontWeight.bold,
     ),);
   }

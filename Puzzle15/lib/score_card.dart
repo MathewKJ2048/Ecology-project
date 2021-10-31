@@ -8,7 +8,7 @@ class ScoreCard extends StatelessWidget{
   @override
   Widget build(BuildContext context){
     return Text('SCORE: $i', style: const TextStyle(
-      fontSize: 24,
+      fontSize: 20,
       fontWeight: FontWeight.bold,
     ),
   );
